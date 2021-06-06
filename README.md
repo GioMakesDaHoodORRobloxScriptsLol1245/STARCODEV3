@@ -261,9 +261,10 @@ AutoDrop.TextScaled = true
 AutoDrop.TextSize = 14.000
 AutoDrop.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 AutoDrop.TextWrapped = true
-AutoDrop.MouseButton1Down:connect(function()
+ADMINFLY.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
 end)
+
 
 TextLabel.Parent = STARCODE
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
